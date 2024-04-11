@@ -1,0 +1,367 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \par\vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}\par
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Taha Binhuraib} \\ \vspace{3pt}
+    \small
+    \faAt \hspace{.5pt} \href{mailto:taha.huraib@gmail.com}{taha.huraib@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/tahabinhuraib/}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/TahaBinhuraib}{GitHub}
+    $|$
+    \faGlobe \hspace{.5pt} \href{https://scholar.google.com/citations?user=BLCXvnYAAAAJ&hl=en}{Google Scholar}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Bogazici+University+North+Campus/@41.0863067,29.0441352,15z/data=!4m5!3m4!1s0x0:0x9d2497b07c8edb2f!8m2!3d41.0863067!4d29.0441352}{Istanbul, Turkey}    
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Georgia Institute of Technology}{GA, USA}
+      {P.h.D. in Neuroscience}{2024-}
+
+
+    \resumeSubheading
+      {Bahcesehir Univeristy}{Istanbul, Turkey}
+      {B. Sc. in Industrial Engineering; \textbf{GPA: 3.80/4.00},
+      }{2017 - 2021}
+      
+      Graduated with high honors as the second-ranking student in the department
+
+  \resumeSubHeadingListEnd
+
+%----------- RESEARCH EXPERIENCE -----------
+
+\section{Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Vision Lab, Istanbul Technical University}{Istanbul, Turkey}
+      {Research Assistant}{Mar 2023 \textbf{--} Present}
+        \resumeItemListStart
+            \resumeItem{Published the paper titled 
+\href{https://scholar.google.com/citations?view_op=view_citation&hl=en&user=BLCXvnYAAAAJ&citation_for_view=BLCXvnYAAAAJ:u-x6o8ySG0sC}{\color{blue}{Protodiffusion: Classifier-free diffusion guidance with prototype learning}}
+             at ACML 2023}
+            \resumeItem{Demonstrated superior performance in the early stages of training compared to the baseline method.
+}
+        \resumeItemListEnd
+            
+    \resumeSubheading
+      {Novus}{Istanbul, Turkey}
+      {Chief Research Officer}{Oct 2021 - present}
+        \resumeItemListStart
+            \resumeItem{Novus is a Boston-based start-up that conducts research on Large Language Models (LLMs) and builds industrial applications.}
+            \resumeItem{Working on projects for companies using open-source LLMs and techniques such as SFT and RAG. Implementing and experimenting with state-of-the-art research papers.}
+            \resumeItem{Working on translation for low-resource languages using LLMs.}
+            \resumeItem{Built a mini langchain that supports different inference platforms such as vLLM.}
+            \resumeItem{Working on a research project about a recursive prompt optimization-based ranking method for comparing the outputs of LLMs.}
+        \resumeItemListEnd
+    \resumeSubheading
+      {Gama Energy}{Istanbul, Turkey}
+      {Data Scientist}{Sep 2021 - Feb 2022}
+        \resumeItemListStart
+            \resumeItem{Developed a fully automated pipeline for different regression and classification tasks.}
+            \resumeItem{Provided data-driven statistical analyses on how different factors affect different energy markets.}
+        \resumeItemListEnd
+        
+    \resumeSubheading
+      {Towards Data Science}{}
+      {Technical Writer}{Sep 2021 - Feb 2022}
+        \resumeItemListStart
+            \resumeItem{\href{https://taha-huraibb99.medium.com/diffusion-models-demystified-88a25b0bd35a}{\color{blue}Diffusion Models Demystified}}
+            \resumeItem{\href{https://towardsdatascience.com/the-essence-of-rnns-44dfb4107a47}{\color{blue}The Essence of RNNs
+            \resumeItem{\href{https://towardsdatascience.com/nlp-with-cnns-a6aa743bdc1e}{\color{blue}NLP with CNNs}}
+            \resumeItem{\href{https://towardsdatascience.com/an-introduction-to-linear-algebra-for-deep-learning-c1b72de78543}{\color{blue}An Introduction to Linear Algebra for Deep Learning}}
+}}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+
+
+
+%----------- PROJECTS -----------
+
+\section{Projects and Publications}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+        {\textbf{Topoformer}{}}
+        
+          \resumeItemListStart
+            \resumeItem{\textbf{T. Binhuraib}, Tuckute, G., NM Blauch, “Topoformer: brain-like topographic organization in Transformer language models through spatial querying and reweighting”, \textbf{ICLR Re-Align 2024}}
+          \resumeItemListEnd
+          
+    \resumeProjectHeading
+        {\textbf{Protodiffusion: Classifier-free diffusion guidance with prototype learning}{}}
+        
+          \resumeItemListStart
+            \resumeItem{G. Baykal, H. F. Karagoz, \textbf{T. Binhuraib}, and G. Unal, “Protodiffusion: Classifier-free diffusion guidance with prototype learning", \textbf{ACML, 2023}}
+          \resumeItemListEnd
+    \resumeProjectHeading
+        {\textbf{Proposing a Novel Artificial Neural Network Methodology for Forecasting Risk of the COVID-19 Pandemic}{}}
+
+          \resumeItemListStart
+            \resumeItem{\textbf{T.Binhuraib}, GT Temur, "Proposing a Novel Artificial Neural Network Based Methodology for Forecasting Risk of Covid-19 Pandemic"\textbf{ Proceeding of IDS 2020, 2023}}
+          \resumeItemListEnd
+    \resumeProjectHeading
+        {\textbf{{Studying the Neurological Differences between Winning and Losing a Gamble  $|$ \emph{\href{https://github.com/TahaBinhuraib/NWA_project}{\color{blue}GitHub}}}}{}}
+        
+          \resumeItemListStart
+            \resumeItem{A study in which fMRI data was used to study the neurological effects of gambling.}
+            \resumeItem{Generated Statistical mappings of the brain using generalized linear models.}
+            \resumeItem{Developed logistic regression and deep learning encoding models.}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{{FastAPI Application with Sentence Transformers and Pinecone  $|$ \emph{\href{https://github.com/TahaBinhuraib/llm_encodings}{\color{blue}GitHub}}}}{}}
+        
+          \resumeItemListStart
+            \resumeItem{Enabled users to perform similarity searches on the stored embeddings using Pinecone's search functionality.}
+            \resumeItem{Developed an application that utilizes pre-trained models from Sentence Transformers to encode text.}
+          \resumeItemListEnd
+          
+    \resumeProjectHeading
+        {\textbf{{Price Forecasting and System Direction Determination in the Balancing Power Market.  $|$ \emph{\href{https://github.com/TahaBinhuraib/energy_datascience}{\color{blue}GitHub}}}}{}}
+
+    \resumeProjectHeading
+        {\textbf{{PyTorch GANs  $|$ \emph{\href{https://github.com/TahaBinhuraib/PyTorch-GANs}{\color{blue}GitHub}}}}{}}
+        
+          \resumeItemListStart
+            \resumeItem{Implemented the original Generative Adversarial Networks paper using PyTorch.}
+          \resumeItemListEnd
+    \resumeProjectHeading
+        {\textbf{{BART Morphology  $|$ \emph{\href{https://github.com/TahaBinhuraib/https://github.com/TahaBinhuraib/BART_morphological}{\color{blue}GitHub}}}}{}}
+        
+          \resumeItemListStart
+            \resumeItem{Trained a BART language model from scratch for an inflection task.}
+          \resumeItemListEnd
+      % \resumeProjectHeading
+      %   {\textbf{Data Structure Projects} $|$ \emph{\href{https://github.com/busraasan/Data-Structures}{\color{blue}GitHub}}}{}
+      %     \resumeItemListStart
+      %       \resumeItem{C++ projects for BLG 223E Data Structures course. Implementations include graph walks, non-duplicated sorted skip list, heap, trie, simple blockchain, a processor system with queues.}
+            
+      %     \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming:}{ Python, C, C++, Rust, SQL, Go} \\ \vspace{3pt}
+        
+        \textbf{Technologies:}{ Git, Docker, AWS, Gradio, Streamlit, Google Cloud, Azure} \\ \vspace{3pt}
+
+        \textbf{Web Development:}{ Flask, Django, FastAPI} \\ \vspace{3pt}
+        \textbf{Machine Learning}{ Scikit-learn, PyTorch, TensorFlow, Jax} \\ \vspace{3pt}
+
+        \textbf{Languages:}{ Arabic (Native), English (Native), Turkish (Native)}
+        
+        % \textbf{Frameworks}{: X, X, X} \\
+        % \textbf{Developer Tools}{: X, X, X} \\
+        % \textbf{Libraries}{: X, X, X} \\
+        % \textbf{Applications}{: X, X, X}
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+% %----------- RELEVANT COURSEWORK -----------
+
+% \section{Relevant Coursework}
+%   \vspace{2pt}
+%   \resumeSubHeadingListStart
+%     \small{\item{
+%         \textbf{Coursework:}{ Deep Learning (graduate-level course), Learn from Data, Analysis
+% of Algorithms I \& II, Data Structures, Probability \& Statistics, Object-Oriented Programming, Artificial Intelligence, Discrete Mathematics, Database Systems} \\ \vspace{3pt}
+%     }}
+%   \resumeSubHeadingListEnd
+
+
+
+% %----------- CERTIFICATES -----------
+
+% % \section{Certificates}
+%   % \resumeSubHeadingListStart
+    
+%     % \resumeOrganizationHeading
+%       % {Procter \& Gamble VIA Certificate Program}{Feb 2022}{Business Skills, Data and Digital Skills, Project Management and Personal Productivity}
+    
+%   % \resumeSubHeadingListEnd
+
+
+
+% %----------- ORGANIZATIONS -----------
+
+% % \section{Organizations}
+%   % \resumeSubHeadingListStart
+    
+%     % \resumeOrganizationHeading
+%       % {Institute of Electrical and Electronics Engineers (IEEE)}{Feb 2022 -- Present}{Student Member}
+    
+%   % \resumeSubHeadingListEnd
+
+
+
+% %----------- HOBBIES -----------
+
+% % \section{Hobbies}
+%   % \resumeSubHeadingListStart
+%     % \small{\item{Swimming, Fitness, Eight-ball}}
+%   % \resumeSubHeadingListEnd
+
+
+
+% %----------- REFERENCES -----------
+
+% % \section{References}
+%   % \resumeSubHeadingListStart
+    
+%   % \resumeSubHeadingListEnd
+
+
+
+% %-------------------------------------------
+\end{document}
+
