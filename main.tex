@@ -89,10 +89,17 @@
 }
 
 \newcommand{\resumeRoleHeading}[2]{
-    \vspace{-1pt}
+    \vspace{2pt}
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeCompanyHeading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-2pt}
 }
 
 
@@ -108,9 +115,9 @@
 
 \newcommand{\resumeProjectHeading}[2]{
     \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \begin{tabularx}{0.97\textwidth}{@{}Xr@{}}
+      \small #1 & \small #2 \\
+    \end{tabularx}\vspace{-7pt}
 }
 
 
@@ -141,6 +148,7 @@
 
 \begin{center}
     \textbf{\Huge \scshape Taha Binhuraib} \\ \vspace{3pt}
+    \small Ph.D. researcher in language and brain modeling with active publications and prior leadership in production LLM systems. \\ \vspace{4pt}
     \small
     \faIcon{at} \hspace{.5pt} \href{mailto:taha.huraib@gmail.com}{taha.huraib@gmail.com}
     $|$
@@ -199,9 +207,8 @@
   \vspace{3pt}
   \resumeSubHeadingListStart
 
-    \resumeSubheading
+    \resumeCompanyHeading
       {Novus}{Istanbul, Turkey}
-      {Full-time}{Nov 2021 -- Aug 2024}
       \resumeRoleHeading
         {Chief Research Officer}{Mar 2024 -- Aug 2024}
       \resumeItemListStart
@@ -261,28 +268,28 @@
         {\textbf{From Language to Cognition: How LLMs Outgrow the Human Language Network}}{}
 
           \resumeItemListStart
-            \resumeItem{B. AlKhamissi, G. Tuckute, Y. Tang, \textbf{T. Binhuraib}, A. Bosselut, and M. Schrimpf. \emph{From Language to Cognition: How LLMs Outgrow the Human Language Network}. EMNLP 2025 (Oral).}
+            \resumeItem{B. AlKhamissi, G. Tuckute, Y. Tang, \textbf{T. Binhuraib}, A. Bosselut, and M. Schrimpf. \emph{From Language to Cognition: How LLMs Outgrow the Human Language Network}. EMNLP 2025 (Oral). $|$ \href{https://aclanthology.org/2025.emnlp-main.1237.pdf}{\color{blue}Paper}}
           \resumeItemListEnd
 
       \resumeProjectHeading
         {\textbf{TopoLM: brain-like spatio-functional organization in a topographic language model}}{}
 
           \resumeItemListStart
-            \resumeItem{N. Rathi, J. Mehrer, B. AlKhamissi, \textbf{T. Binhuraib}, N. M. Blauch, and M. Schrimpf. \emph{TopoLM: brain-like spatio-functional organization in a topographic language model}. ICLR 2025 (Oral).}
+            \resumeItem{N. Rathi, J. Mehrer, B. AlKhamissi, \textbf{T. Binhuraib}, N. M. Blauch, and M. Schrimpf. \emph{TopoLM: brain-like spatio-functional organization in a topographic language model}. ICLR 2025 (Oral). $|$ \href{https://arxiv.org/pdf/2410.11516}{\color{blue}Paper}}
           \resumeItemListEnd
 
       \resumeProjectHeading
-        {\textbf{Topoformer}}{}
+        {\textbf{Topoformer: brain-like topographic organization in Transformer language models through spatial querying and reweighting}}{}
 
           \resumeItemListStart
-            \resumeItem{\textbf{T. Binhuraib}, G. Tuckute, and N. M. Blauch. \emph{Topoformer: brain-like topographic organization in Transformer language models through spatial querying and reweighting}. ICLR Re-Align 2024.}
+            \resumeItem{\textbf{T. Binhuraib}, G. Tuckute, and N. M. Blauch. \emph{Topoformer: brain-like topographic organization in Transformer language models through spatial querying and reweighting}. ICLR Re-Align 2024. $|$ \href{https://arxiv.org/abs/2510.18745}{\color{blue}Paper}}
           \resumeItemListEnd
           
       \resumeProjectHeading
         {\textbf{Protodiffusion: classifier-free diffusion guidance with prototype learning}}{}
         
           \resumeItemListStart
-            \resumeItem{G. Baykal, H. F. Karagoz, \textbf{T. Binhuraib}, and G. Unal. \emph{Protodiffusion: classifier-free diffusion guidance with prototype learning}. ACML 2023.}
+            \resumeItem{G. Baykal, H. F. Karagoz, \textbf{T. Binhuraib}, and G. Unal. \emph{Protodiffusion: classifier-free diffusion guidance with prototype learning}. ACML 2023. $|$ \href{https://proceedings.mlr.press/v222/baykal24a/baykal24a.pdf}{\color{blue}Paper}}
           \resumeItemListEnd
       
     \resumeSubHeadingListEnd
